@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <h1>Register</h1>
+        <form>
+            <label for="first_name">First:</label>
+            <input type="text" id="first_name" name="first_name" placeholder="your first name">
+            
+            <label for="last_name">Last:</label>
+            <input type="text" id="last_name" name="last_name" placeholder="your last name">
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="something@email.com">
+            
+            <label for="DOB">Date of Birth:</label>
+            <input type="date" id="date" name="date" placeholder="mm/dd/yyyy">
+            
+            <p>
+                <input type="password" id="password" name="password" placeholder="8+ characters">
+            </p>
+            <!-- radio buttons for gender instead of dropbox -->
+            <p>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+
+                <label for="decline">Prefer not to say</label>
+                <input type="radio" id="decline" name="gender" value="decline">
+            </p>
+            <!--  DOB -->
+            
+            <!-- coding language checkbox -->
+            <p>
+                <h1>Coding Languages You Know</h1>
+                <label for="HTML">HTML</label>
+                <input type="checkbox" id="html" name="Coding" value="">
+
+                <label for="CSS">CSS</label>
+                <input type="checkbox" id="css" name="Coding" value="">
+
+                <label for="Javascript">Javascript</label>
+                <input type="checkbox" id="Javascript" name="Coding" value="">
+                
+                <label for="Java">Java</label>
+                <input type="checkbox" id="Java" name="Coding" value="">
+                
+                <label for="Python">Python</label>
+                <input type="checkbox" id="Python" name="Coding" value="">
+            </p>
+            <!-- text box -->
+            <p>What made you choose coding? </p>
+            <textarea name="" id="" cols="50" rows="10"></textarea>
+
+            <!-- submit button -->
+            <input type="submit" value="Register">
+        </form>
+    
+    </body>
+</html>
